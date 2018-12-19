@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+	<html>
+	 <head>
+	 	<meta charset="UTF-8">
+	 	<title>ENCUESTA DE SATISFACCIÓN. FORMULARIOS II</title>
+	 </head>
+	 <body>
+		<form method="post" action="miservidor.php">
+			<div>
+		    	<label for="cpostal">Código postal:</label>
+		      	<input id="cpostal" type="text">
+		    </div>
+		  <div>
+				<label for="satisfaccion">Nivel de satisfacción:</label>
+				<select id="satisfaccion">
+			    	<option value="1">1</option>
+			      	<option value="2">2</option>
+			      	<option value="3">3</option>
+			      	<option value="4">4</option>
+			      	<option value="5">5</option>
+				</select>
+		  </div>		    
+		  <div>
+		  		<label for="email">Email:</label>
+		    	<input id="email" type="text">
+		  </div>
+		  <div>
+		      	<label for="puntos_pos">Puntos positivos:</label>
+		    	<textarea id="puntos_pos"></textarea>
+		  </div>
+		  <div>
+		      	<label for="puntos_neg">Puntos negativos:</label>
+		    	<textarea id="puntos_neg"></textarea>
+		    </div>	
+		  <div>
+		      	<label for="calidad">Calidad del producto:</label>
+		      	<select id="calidad">
+		        	<option value="E">Excelente</option>
+		        	<option value="B">Bueno</option>
+		        	<option value="R">Regular</option>
+		        	<option value="P">Pésimo</option>
+		      	</select>
+		  </div>
+		  <div>
+		      	<label for="tamano">Tamaño del producto:</label>
+		      	<select id="tamano">
+		        	<option value="E">Excelente</option>
+		        	<option value="B">Bueno</option>
+		        	<option value="R">Regular</option>
+		        	<option value="P">Pésimo</option>
+		      	</select>
+		  </div>
+		  <div>
+		      	<label for="peso">Peso del producto:</label>
+		      	<input name="peso" type="radio" value="E">Excelente
+		      	<input name="peso" type="radio" value="B">Bueno
+		      	<input name="peso" type="radio" value="R">Regular
+		      	<input name="peso" type="radio" value="P">Pésimo		      
+		  </div>		  
+
+		  <input type="submit" value="Enviar"> 
+		  
+		</form>
+
+
+
+			 		 		 		 	
+	 </body>
+	</html>
